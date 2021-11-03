@@ -1,0 +1,50 @@
+/*
+@mixin name {
+    font-size: 16px;
+}
+使用呼叫@include 名稱;
+
+ @mixin color ($color,$size){
+    color:$color;
+    border:5px solid $color;
+    text-decoration: $color;
+    font-size:$size * 1.5;
+}
+.box {@include color(#ff0000,20px);} 呼叫 
+background:darken(色票或變數, %);
+background:lighten(色票或變數, %);
+符號&連結詞代替元素 &:hover{} &:active{}
+
+mixin搭配RWD mixin + content
+*/
+
+@mixin  xs{
+    @media(max-width:360px){
+    @content
+  }
+};
+@mixin  sm{
+    @media(max-width:576px){
+    @content
+  }
+};
+@mixin  md{
+    @media(max-width:768px){
+    @content
+  }
+};
+@mixin  lg{
+    @media(max-width:992px){
+    @content
+  }
+};
+@mixin  xl{
+    @media(max-width:1200px){
+    @content
+  }
+};
+@mixin  xxl{
+    @media(max-width:1400px){
+    @content
+  }
+};
