@@ -67,7 +67,7 @@ body {
   color: white;
   font-weight: bold;
   position: relative;
-  overflow: hidden;
+  overflow-y: scroll;
 }
 
 @media (max-width: 1400px) {
@@ -80,7 +80,7 @@ body {
 @media (max-width: 1200px) {
   .box {
     width: 50vw;
-    height: 50vh;
+    height: 65vh;
   }
 }
 
