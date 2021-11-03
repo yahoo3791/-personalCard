@@ -67,7 +67,7 @@ body {
   color: white;
   font-weight: bold;
   position: relative;
-  overflow-y: scroll;
+  overflow: hidden;
 }
 
 @media (max-width: 1400px) {
