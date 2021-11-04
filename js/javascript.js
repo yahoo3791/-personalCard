@@ -21,6 +21,4 @@ var loader = document.getElementById('preloader');
 window.addEventListener("load",function(){
     loader.style.display = "none";
 });
-if(screen.width < 1024){
-    new WOW().init();
-}
+new WOW().init();
