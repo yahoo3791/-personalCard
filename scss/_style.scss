@@ -33,6 +33,17 @@ body{
     position: relative;
     overflow: hidden;
 }
+@media(min-width:750px){
+  .scroll-down{
+    display: none;
+  }
+  .left_container p{
+    font-size: 1rem;
+  }
+  .left_container .skills div{
+    font-size: 1.2rem;
+  }
+}
 @include xxl{
     .box{
         width: 30%;
@@ -400,9 +411,4 @@ body{
     text-align: center;
     color:red;
     line-height: 100px;
-  }
-  @media(max-width:800px){
-    .scroll-down{
-      display: none;
-    }
   }
