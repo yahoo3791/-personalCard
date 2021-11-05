@@ -10,7 +10,7 @@ html{
   }
 body{
     background: linear-gradient(to right,#2c5364,#203a43,#0f2027);
-    height: 1111px;
+    height: auto;
 }
 .center{
     display: flex;
@@ -368,7 +368,7 @@ body{
       left: -60px;
     }
   }
-  .header{
+  .footer{
       background: #0f2027;
       height: 100px;
   }
@@ -400,4 +400,9 @@ body{
     text-align: center;
     color:red;
     line-height: 100px;
+  }
+  @media(max-width:800px){
+    .scroll-down{
+      display: none;
+    }
   }
